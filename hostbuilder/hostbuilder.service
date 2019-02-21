@@ -1,0 +1,6 @@
+[Unit]  
+Description=hostbuilder service
+  
+[Service]  
+ExecStart=/usr/bin/dotnet /opt/daemons/hostbuilder/hostbuilder.dll
+Restart=on-failure  
